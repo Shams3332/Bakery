@@ -1,0 +1,304 @@
+/*---------------------------------- main menu item-------------------------------------- */
+.background{
+    background-image:  url(images/drew-coffman-1872.jpg);
+    background-size: cover;
+    height: 700px;
+    background-repeat: no-repeat;
+    margin: 0;
+    background-position: center center;
+
+}
+.menu-item{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    float: right;
+    
+}
+.link{
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 500;
+    display: inline-block;
+    
+}
+.menu-item li{
+    display: inline-block;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.bakery{
+    width: 15%;
+    margin: 10px;
+}
+/* ----------------------------------------main binner--------------------------------------------------------------- */
+.binner{
+    text-align: center;
+    margin-top: 200px;
+    color: white;
+
+}
+.family{
+    font-weight: 400;
+    font-size: 60px;
+    font-family: Bell MT;
+    margin-top: 8px;
+}
+.p-family{
+    font-size: large;
+    margin-top: 0px;
+    line-height: 30px;
+    font-family: Bell MT;
+    
+}
+.b1{
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 16px;
+    padding: 10px;
+    background-color: #8e7754;
+    color: white;
+    border: none;
+}
+.b2{
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 16px;
+    padding: 10px;
+    color: white;
+    border-color: white;
+    background-color: transparent;
+
+}
+/* -----------------------------------------who we are --------------------------------------- */
+.who-img{
+   margin-top: 50px;
+   height: 5%;
+   display: inline-block;
+   width: 20%;
+   margin-left: 20px;
+
+}
+.who-we{
+    float: right;
+    width: 45%;
+    margin-top: 50px ;
+    
+}
+.who-we p{
+    line-height: 30px;
+    font-weight: lighter;
+    font-size:medium;
+    color: #686868;
+    font-family: Bell MT;
+}
+.who-we h3{
+    font-size: x-large;
+    color: #686868;
+    font-family: Bell MT;
+}
+
+.icon-who li{
+    list-style: none;
+    line-height: 60px;
+    color:  #686868;
+}
+.icon-who li img{
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 25px;
+    
+
+}
+/* ------------------------------------our location----------------------------------------- */
+.our-location {
+    margin-top: 40px;
+    display: inline-block;
+    background-color: #f8f8f8;
+    color: #686868;
+    width: 100%;
+    
+
+}
+.our-location img{
+    float: right;
+    width: 40%; 
+    margin: 50px;
+}
+.our-location h2{
+    color: #303030;
+    font-weight: 300;
+    margin-top: 80px;
+    
+}
+.location{
+    display: inline-block;
+    margin-top: 60px;
+    line-height: 30px;
+    font-size: larger;
+    font-family: Bell MT;
+}
+/* ---------------------------------------our backing---------------------------------------------- */
+.our-backing{
+    text-align: center;
+    margin-top: 30px;
+    line-height: 20px;
+    margin-bottom: 50px;
+
+}
+.our-backing p{
+    color: #888888;
+}
+.our-backing h2{
+    color : #303030;
+    font-weight: 400;
+    font-size: xx-large;
+    
+    
+}
+/* ---------------------------backing img---------------------------- */
+.backing{
+    
+   display: inline-block;
+    text-align: center;
+    line-height: 20px;
+    color: #888888;
+    
+   
+}
+.backing img{
+    width: 100%;
+}
+.backing1{
+    
+    float: left;
+    width: 32%;
+    
+}
+.backing2{
+    width: 32%;
+    float:left;
+    margin-left: 20Px;
+    margin-right: 20px;
+}
+.backing3{
+    width: 32%;
+    float: left;
+    
+}
+.backing h3{
+    color:#303030;
+    font-size: x-large;
+}
+
+/* -----------------------------------contect information------------------------------------ */
+.contect-information{
+    background-color:#f8f8f8;
+    color: #888888;
+    margin-bottom: 50px;
+    
+    
+
+}
+.contact-all{
+    width: 50%;
+    float: left;
+    
+}
+.contact-if iframe{
+    width:30%;
+    float: right;
+    margin-top: 20px;
+    
+}
+.contact-all h2{
+    color: #303030;
+    font-weight: 400;
+    margin: 30px;
+    
+
+}
+.contact-all p{
+    margin: 40px;
+    
+
+}
+.contact-all h4{
+    margin: 40px;
+    
+
+}
+
+.contact-all li{
+    list-style: none;
+    line-height: 30px;
+    margin: 20px;
+    
+}
+.contact-all img{
+    width: 25px;
+    
+}
+
+/* ----------------------------About us------------------------------------------ */
+.about-us{
+    color: #686868;
+    line-height: 30px;
+    margin-top: 60px;
+    background-color:#403d38;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 0px;
+    
+}
+.about-us h3{
+    /* color: white; */
+    font-size: larger;
+    margin-left: 10px;
+}
+
+.details li{
+    list-style: none;
+}
+.details li img{
+    width: 20px;
+    
+}
+.special{
+    float: left;
+    width: 30%;
+    
+}
+.about{
+    width: 30%;
+    float: left;
+    
+}
+.hours{
+    float: left;
+    width: 20%;
+    
+}
+.details{
+    width: 20%;
+    float: left;
+    
+}
+/* !----------------------------------footer--------------------------------------------- */
+.footer {
+    background-color:#303030;
+    text-align: center;
+    color: #888888;
+    /* display: inline-block; */
+    width: 100%;
+    line-height: 40px;
+    margin-top: 0px;
+}
+.icon{
+    width: 20px;
+    margin-bottom: 30px;
+}
+
